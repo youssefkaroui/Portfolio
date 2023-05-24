@@ -7,14 +7,17 @@ body {
     background-color: beige;
 }
  .header {
-     margin: 15px;
+    
      padding: 20px;
      font-family: Georgia, 'Times New Roman', Times, serif;
      color:black; 
+     background-color: lightblue;
  }
  .header h1 {
-     display: block;
+    display: inline-block;
      font-size: 40px;
+     padding-right: 20px;
+     justify-content:space-between;
  }
  /*navigation bar styling */
  
@@ -34,10 +37,42 @@ body {
 .header div ul li {
     display:inline-block;
     margin-left: 30px;
+    
+}
+a{
+    color:gray;
+    text-decoration: rgb(68, 71, 75);
 }
 
+.about-me, .work , .contact-me {
+    height:fit-content;
+    margin-bottom: 20px;
+    padding: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-me{
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    justify-items: flex-end;
+    align-self: center;
 
 
+}
+.about-me {
+    display:flex;
+    flex-wrap:wrap;
+    
+    justify-items:stretch;
+    align-self: center;
+    justify-content:space-around;
+
+    
+}
 
 
 
@@ -51,10 +86,15 @@ body {
      max-width: 320px;
 
  }
- .Youssef-img{
+ .Youssef-img{  
   border: 1px solid grey;
   border-radius: 3px;
   padding:4px;
-  width:100px;
-  height: 100px;
+  width: 65px;
+  height: 65px;
+ }
+ .Background-img {
+     max-height: 150px;
+    width:2000px;
+
  }
