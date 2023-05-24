@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background-color: beige;
+}
+ .header {
+     margin: 15px;
+     padding: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color:black; 
+ }
+ .header h1 {
+     display: block;
+     font-size: 40px;
+ }
+ /*navigation bar styling */
+ 
+.header div {
+    padding-top: 20px;
+    margin-right:25px;
+    float:right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+
+
+}
+.header div ul {
+    list-style-type:none ;
+}
+
+.header div ul li {
+    display:inline-block;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+ .Horizeon-img, .Future-project-img {
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: 20px;
+     max-width: 320px;
+
+ }
+ .Youssef-img{
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding:4px;
+  width:100px;
+  height: 100px;
+ }
