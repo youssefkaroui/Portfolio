@@ -2,7 +2,7 @@
 ![alt text](./assets/images/README-screenshot.png) Looks like this 
 ## Purpose
 
-This my professional portfolio that showcases all my work to a potential employer. This wed-page has links to all my work so far.
+This is my professional portfolio. It showcases all my work to a potential employer. This wed-page has links to all my work so far.
 
 
 ### Installation
